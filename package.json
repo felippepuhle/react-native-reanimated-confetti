@@ -1,0 +1,54 @@
+{
+  "name": "reanimated-confetti",
+  "version": "1.0.0",
+  "description": "Confetti shower component",
+  "keywords": [
+    "react-native",
+    "reanimated",
+    "confetti"
+  ],
+  "scripts": {
+    "prepare": "bob build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felippe R. Puhle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felippepuhle/reanimated-confetti.git"
+  },
+  "license": "MIT",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "react-native": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "module",
+      "typescript"
+    ]
+  },
+  "dependencies": {
+    "react-native-reanimated": "^1.7.0",
+    "react-native-svg": "^11.0.1"
+  },
+  "devDependencies": {
+    "@react-native-community/bob": "^0.8.0",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-native": "^0.61.5",
+    "typescript": "^3.7.5"
+  }
+}
