@@ -2,7 +2,7 @@
 
 Confetti with fully native 60 FPS animations!
 
-![](assets/demo.gif)
+<img src='assets/demo.gif' width=200 />
 
 ## Installation
 
