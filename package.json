@@ -21,7 +21,7 @@
   "author": "Felippe R. Puhle",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felippepuhle/reanimated-confetti.git"
+    "url": "git+https://github.com/felippepuhle/react-native-reanimated-confetti.git"
   },
   "license": "MIT",
   "main": "lib/commonjs/index.js",
