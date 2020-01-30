@@ -8,6 +8,7 @@
     "confetti"
   ],
   "scripts": {
+    "lint": "eslint .",
     "release:prepare": "bob build",
     "release:publish": "npm publish --access public",
     "release:patch": "npm version patch && git push --follow-tags",
@@ -53,9 +54,14 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-native": "^3.8.1",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.19.1",
     "metro-react-native-babel-preset": "0.54.1",
+    "prettier": "^1.19.1",
     "typescript": "^3.7.5"
   }
 }
