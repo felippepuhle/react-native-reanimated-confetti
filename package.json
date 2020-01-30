@@ -8,7 +8,11 @@
     "confetti"
   ],
   "scripts": {
-    "prepare": "bob build",
+    "release:prepare": "bob build",
+    "release:publish": "npm publish --access public",
+    "release:patch": "npm version patch && git push --follow-tags",
+    "release:minor": "npm version minor && git push --follow-tags",
+    "release:major": "npm version major && git push --follow-tags",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:android": "react-native run-android --root example/",
     "start:ios": "react-native run-ios --project-path example/ios --scheme example"
