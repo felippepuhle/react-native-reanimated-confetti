@@ -1,0 +1,65 @@
+{
+  "name": "reanimated-confetti",
+  "version": "0.0.0",
+  "description": "Confetti shower component",
+  "keywords": [
+    "react-native",
+    "reanimated",
+    "confetti"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "bob build",
+    "release": "release-it",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start:android": "react-native run-android --root example/",
+    "start:ios": "react-native run-ios --project-path example/ios --scheme example"
+  },
+  "author": "Felippe R. Puhle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felippepuhle/react-native-reanimated-confetti.git"
+  },
+  "license": "MIT",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "react-native": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "module",
+      "typescript"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-native": "^0.60.5",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-svg": "^11.0.1"
+  },
+  "devDependencies": {
+    "@react-native-community/bob": "^0.8.0",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "metro-react-native-babel-preset": "0.54.1",
+    "prettier": "^1.19.1",
+    "release-it": "^12.4.3",
+    "typescript": "^3.7.5"
+  }
+}

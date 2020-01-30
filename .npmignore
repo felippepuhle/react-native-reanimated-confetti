@@ -1,0 +1,6 @@
+# Docs and examples
+assets/
+example/
+
+# Dependency directories
+node_modules/
