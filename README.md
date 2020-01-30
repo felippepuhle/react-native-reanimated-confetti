@@ -4,9 +4,17 @@ Confetti with fully native 60 FPS animations!
 
 ## Installation
 
+#### 1. Add reanimated-confetti to your dependencies:
+
 ```sh
 yarn add reanimated-confetti
 ```
+
+#### 2. Link native dependencies
+
+We're using [react-native-svg](https://github.com/react-native-community/react-native-svg) under the hoods, so you'll need to link it.
+
+From react-native 0.60 autolinking will take care of the link step but don't forget to run `pod install` in the `ios/` directory.
 
 ## Usage
 
