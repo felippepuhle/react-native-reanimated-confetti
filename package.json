@@ -10,10 +10,9 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "bob build",
-    "version:patch": "npm version patch && git push --follow-tags",
-    "version:minor": "npm version minor && git push --follow-tags",
-    "version:major": "npm version major && git push --follow-tags",
-    "publish": "npm publish --access public",
+    "publish:patch": "npm version patch && git push --follow-tags && npm publish --access public",
+    "publish:minor": "npm version minor && git push --follow-tags && npm publish --access public",
+    "publish:major": "npm version major && git push --follow-tags && npm publish --access public",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:android": "react-native run-android --root example/",
     "start:ios": "react-native run-ios --project-path example/ios --scheme example"
