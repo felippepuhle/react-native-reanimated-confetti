@@ -2,6 +2,8 @@
 
 Confetti with fully native 60 FPS animations!
 
+![](assets/demo.gif)
+
 ## Installation
 
 #### 1. Add reanimated-confetti to your dependencies:
