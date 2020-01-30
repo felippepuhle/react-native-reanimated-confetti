@@ -9,7 +9,7 @@ Confetti with fully native 60 FPS animations!
 #### 1. Add reanimated-confetti to your dependencies:
 
 ```sh
-yarn add reanimated-confetti
+yarn add reanimated-confetti react-native-svg
 ```
 
 #### 2. Link native dependencies
