@@ -36,7 +36,7 @@ export default Example;
 | count    | no       | 50                                                                 | particles quantity                           |
 | duration | no       | 5000                                                               | animation duration for each particle (in ms) |
 | minSize  | no       | 20                                                                 | particles min size                           |
-| maxSize  | no       | 50                                                                 | particles max size                           |
+| maxSize  | no       | 30                                                                 | particles max size                           |
 | colors   | no       | ['#48b0f1', '#8fed8f', '#75f3c8', '#fff045', '#f357ac', '#b285fb'] | particles colors                             |
 
 ## Example
