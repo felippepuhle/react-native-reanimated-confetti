@@ -23,7 +23,7 @@
     "url": "git+https://github.com/felippepuhle/react-native-reanimated-confetti.git"
   },
   "license": "MIT",
-  "main": "lib/commonjs/index.js",
+  "main": "lib/module/index.js",
   "module": "lib/module/index.js",
   "react-native": "lib/module/index.js",
   "types": "lib/typescript/src/index.d.ts",
